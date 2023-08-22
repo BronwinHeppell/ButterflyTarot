@@ -5,6 +5,8 @@ h1 {
   text-shadow: 6px 5px 6px rgb(177, 168, 4);
   font-style: italic;
   color: #d0cbcb;
+  
+
 }
 
 .card {
@@ -14,15 +16,15 @@ h1 {
   cursor: pointer;
   background-color: #161717;
   border-color: rgb(0, 0, 0);
-  background-image: url("background.png");
-  background-size: 195px 300px;
+  background-image: url("assets/background.png");
+  background-size: 230px 305px;
 }
 .card:hover {
   scale: 1.1;
 }
 /* CARD FRONT */
 .card-title {
-  font-size: 15px;
+  font-size: 19px;
   font-family: "Sofia", sans-serif;
   margin-bottom: 10px;
   color: whitesmoke;
@@ -37,29 +39,34 @@ h1 {
   background-color: whitesmoke;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
-  background-image: url("insidecard.jpg");
+  background-image: url("assets/insidecard.jpg");
   background-size: 170px 180px;
   background-position: center;
 }
 .card-description {
   font-family: "Sofia", sans-serif;
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
   color: #d0cbcb;
   text-shadow: 6px 5px 6px rgb(177, 168, 4);
 }
 /* CARD BACK */
 .card-title-back {
-  font-size: 10px;
+  font-size: 15px;
   font-family: "Sofia", sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   color: #d0cbcb;
   text-shadow: 6px 5px 6px rgb(177, 168, 4);
 }
 .card-description-back {
-  font-size: 10px;
-  font-family: "Sofia", sans-serif;
+  font-size: 5px;
+
+  font-family: sans-serif;
   color: #d0cbcb;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  padding: 5px;
 }
 
 /* Nav */
@@ -75,10 +82,10 @@ body {
 
 .flip-card {
   background-color: transparent;
-  width: 200px;
+  width: 230px;
   height: 300px;
   perspective: 1000px;
-  margin: 50px;
+  margin: 20px;
 }
 
 .flip-card-inner {
@@ -112,8 +119,8 @@ body {
   justify-content: center;
 }
 body {
-  background-color: #cccccc;
-  background-image: url(https://i.pinimg.com/564x/4e/20/4c/4e204c62983ddb59c7b9ddbaea2ef93e.jpg);
+  background-color: #090909;
+ background-image: url(assets/testnewbg.png);
   background-size: cover;
   background-repeat: repeat;
 }
@@ -121,4 +128,22 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+}
+p {
+  color: rgb(254, 254, 254);
+  margin-bottom: 2px;
+  font-size: 5px;
+  text-shadow: 3px 4px 3px rgb(177, 168, 4);
+}
+.cardreading{
+display: flex;
+justify-content: center;
+}
+
+
+.homegif {
+opacity: 50%;
+margin-left: 15px;
+overflow: hidden;
+
 }

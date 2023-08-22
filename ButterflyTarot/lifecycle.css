@@ -1,0 +1,38 @@
+.lifecycle-card {
+  width: 550px;
+  height: 700px;
+  border-radius: 10%;
+  background-color: #080707;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.lifecycle-card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Sofia", sans-serif;
+  font-size: 50px;
+  text-shadow: 4px 3px 4px rgb(177, 168, 4);
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+body {
+  background-color: #000000;
+ background-image: url(assets/background.png);
+ background-size: 900px 950px;
+}
+.nav-link {
+  color: #d0cbcb;
+  font-family: "Sofia", sans-serif;
+  text-shadow: 6px 5px 6px rgb(177, 168, 4);
+  margin-bottom: 15px;
+}
