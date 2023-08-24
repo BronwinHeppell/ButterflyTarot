@@ -1,13 +1,12 @@
 .lifecycle-card {
-  width: 550px;
-  height: 700px;
-  border-radius: 10%;
-  background-color: #080707;
+  width: 670px;
+  height: 750px;
+  background-color: #000000;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  border-radius: 9%;
 }
 
 .lifecycle-card img {
@@ -27,8 +26,7 @@ h1 {
 }
 body {
   background-color: #000000;
- background-image: url(assets/background.png);
- background-size: 900px 950px;
+  /* background-image: url(assets/starbg.jpg); */
 }
 .nav-link {
   color: #d0cbcb;

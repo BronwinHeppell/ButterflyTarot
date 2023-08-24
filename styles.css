@@ -5,42 +5,49 @@ h1 {
   text-shadow: 6px 5px 6px rgb(177, 168, 4);
   font-style: italic;
   color: #d0cbcb;
-  
+  font-size: 37px;
+}
 
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 30px;
+    width: 300px;
+  }
 }
 
 .card {
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 15px;
+  padding: 5px;
   text-align: center;
   cursor: pointer;
-  background-color: #161717;
-  border-color: rgb(0, 0, 0);
+  background-color: #000000;
+  border-color: rgba(0, 0, 0, 0.715);
   background-image: url("assets/background.png");
-  background-size: 230px 305px;
+  background-size: 280px 309px;
 }
 .card:hover {
   scale: 1.1;
 }
 /* CARD FRONT */
 .card-title {
-  font-size: 19px;
+  font-size: 20px;
   font-family: "Sofia", sans-serif;
+  margin-top: 10px;
   margin-bottom: 10px;
   color: whitesmoke;
   text-shadow: 6px 5px 6px rgb(177, 168, 4);
   color: #d0cbcb;
 }
 .card-image {
-  width: 120px;
-  height: 190px;
+  width: 210px;
+  height: 350px;
   overflow: hidden;
   margin: 0 auto;
   background-color: whitesmoke;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 20px;
-  background-image: url("assets/insidecard.jpg");
-  background-size: 170px 180px;
+  border: 2px;
+  border-radius: 30px;
+  background-image: url("assets/cardbg1.png");
+  background-size: 240px 250px;
   background-position: center;
 }
 .card-description {
@@ -52,21 +59,31 @@ h1 {
 }
 /* CARD BACK */
 .card-title-back {
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Sofia", sans-serif;
   margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 10px;
   color: #d0cbcb;
-  text-shadow: 6px 5px 6px rgb(177, 168, 4);
+  text-align: center;
+  text-shadow: 4px 4px 4px rgb(177, 168, 4);
 }
 .card-description-back {
-  font-size: 5px;
-
+  font-size: 10px;
   font-family: sans-serif;
-  color: #d0cbcb;
-  margin-left: 5px;
-  margin-right: 5px;
-
-  padding: 5px;
+  color: rgba(245, 245, 245, 0.694);
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  word-wrap: break-word;
 }
 
 /* Nav */
@@ -74,6 +91,15 @@ h1 {
   color: #d0cbcb;
   font-family: "Sofia", sans-serif;
   text-shadow: 6px 5px 6px rgb(177, 168, 4);
+  width: 165px;
+  height: 165px;
+  font-size: 10px;
+}
+@media (max-width: 1024px) {
+  .nav-link {
+    font-size: 15px;
+    width: 190px;
+  }
 }
 
 body {
@@ -82,10 +108,10 @@ body {
 
 .flip-card {
   background-color: transparent;
-  width: 230px;
+  width: 280px;
   height: 300px;
   perspective: 1000px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .flip-card-inner {
@@ -120,9 +146,8 @@ body {
 }
 body {
   background-color: #090909;
- background-image: url(assets/testnewbg.png);
+  background-image: url(assets/homebg.png);
   background-size: cover;
-  background-repeat: repeat;
 }
 .page-container {
   max-width: 1200px;
@@ -130,20 +155,19 @@ body {
   padding: 20px;
 }
 p {
-  color: rgb(254, 254, 254);
-  margin-bottom: 2px;
-  font-size: 5px;
-  text-shadow: 3px 4px 3px rgb(177, 168, 4);
+  color: whitesmoke;
+  margin-bottom: 1px;
+  font-size: 10px;
+  text-shadow: 2px 2px 2px rgb(177, 168, 4);
+  justify-content: center;
 }
-.cardreading{
-display: flex;
-justify-content: center;
+.cardreading {
+  display: flex;
+  justify-content: center;
 }
-
 
 .homegif {
-opacity: 50%;
-margin-left: 15px;
-overflow: hidden;
-
+  opacity: 50%;
+  margin-left: 15px;
+  overflow: hidden;
 }

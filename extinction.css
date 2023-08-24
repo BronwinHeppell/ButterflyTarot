@@ -10,9 +10,9 @@ h1 {
   text-shadow: 4px 3px 4px rgb(177, 168, 4);
 }
 body {
-  background-image: url(assets/extbackground.png);
+  background-image: url(assets/ext4.png);
   background-size: cover;
-  background-repeat: repeat;
+  background-color: black;
 }
 .card {
   border-radius: 10px;
